@@ -18,7 +18,7 @@ This document outlines the roles, technologies, features, and architecture behin
 | 🤖 **Test Automation Engineer** | Develops automated testing systems, reducing manual test load and increasing efficiency. |
 | 🔄 **DevOps Engineer** | Builds CI/CD pipelines, manages deployments, and automates infrastructure. |
 
-## 🧰 Tech Stack
+## 🧰 Technology Stack
 
 | Technology | Role |
 |------------|------|
@@ -30,7 +30,7 @@ This document outlines the roles, technologies, features, and architecture behin
 | Nginx + Gunicorn | Web server and app server for scalable deployment |
 | Git & GitHub | Version control and collaboration |
 
-## 🗂️ Database Schema Overview
+## 🗂️ Database Design
 
 ### Entities
 
@@ -55,7 +55,7 @@ This document outlines the roles, technologies, features, and architecture behin
 - A Property belongs to one User but has many Bookings and Reviews  
 - Each Booking links a User and a Property, and can have one Payment  
 
-## ✨ Feature Set
+## ✨ Feature Breakdown
 
 | Category | Description |
 |----------|-------------|
@@ -66,7 +66,7 @@ This document outlines the roles, technologies, features, and architecture behin
 | 💳 **Payment Integration** | Secure payment flow with transaction tracking |
 | 🔎 **Search & Filters** | Filter properties by price, location, and amenities |
 
-## 🔐 API Security Measures
+## 🔐 API Security
 
 | Feature | Description | Importance |
 |---------|-------------|------------|
